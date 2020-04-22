@@ -13,8 +13,8 @@ COPY . app.py/ app/
 RUN makefile
 
 ## Step 4:
-# Expose port 80
+EXPOSE port 80
 
 ## Step 5:
-# Run app.py at container launch
+RUN app.py at container launch
 
